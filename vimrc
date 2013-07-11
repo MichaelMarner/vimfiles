@@ -37,11 +37,11 @@ let OmniCpp_NamespaceSearch = 2 " search namespaces in this and included files
 let OmniCpp_ShowPrototypeInAbbr = 1 " show function prototype (i.e. parameters) in popup window
 " -- ctags --
 " map <ctrl>+F12 to generate ctags for current folder:
-map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR>
+map <C-t> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR>
 " add current directory's generated tags file to available tags
 set tags+=./tags
-set tags+=/home/michael/.vim/tags/libwcl.tags
-set tags+=/home/michael/.vim/tags/sar.tags
+set tags+=$HOME/.vim/tags/libwcl.tags
+set tags+=$HOME/.vim/tags/sar.tags
 
 let g:tex_flavor='latex'
 set grepprg=grep\ -nH\ $*
