@@ -5,7 +5,8 @@ execute pathogen#infect()
 set nocompatible
 syntax on
 filetype on
-filetype plugin indent on 
+filetype plugin on 
+filetype indent on 
 
 " --- Sane tab options
 set autoindent
@@ -44,7 +45,7 @@ set hlsearch
 " --- Clear search highlighting with ,<SPACE>
 noremap <leader><space> :noh<cr>
 
-noremap <leader>t :NERDTree
+noremap <leader>t :NERDTree<cr>
 
 
 
