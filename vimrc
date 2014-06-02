@@ -29,7 +29,9 @@ au BufRead,BufNewFile *.ino set filetype=arduino
 
 " --- Pretty colour scheme ---
 set background=dark
+set t_Co=16
 colorscheme solarized
+
 
 " --- Don't know about this leader key just yet... ---
 let mapleader = ","
