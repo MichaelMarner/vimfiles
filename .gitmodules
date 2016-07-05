@@ -25,3 +25,6 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script
+[submodule "bundle/jshint2"]
+	path = bundle/jshint2
+	url = https://github.com/Shutnik/jshint2.vim.git
